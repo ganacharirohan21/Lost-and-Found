@@ -1,0 +1,138 @@
+
+.Lostheading{
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  background-image: linear-gradient(to right, #4b4b4b, #cfd4d4, #4b4b4b);
+}
+
+.main-card--cointainer {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(300px, 500px));
+  grid-gap: 50px;
+  justify-content: space-around;
+  /* background-color: rgb(230, 227, 227); */
+  background-image: linear-gradient(to right, #4b4b4b, #cfd4d4, #4b4b4b);
+}
+.lostcard-container{
+    margin-left: 2.5rem; 
+    justify-content: space-around;
+    grid-template-columns: 1fr;
+    align-items: flex-start;
+    margin-top: 1rem; 
+    margin-bottom: 1rem;
+  }
+  
+ 
+  .Lostcard{   
+   
+    background-color: #fff;
+    opacity: 90%;
+    margin-left: 1rem;
+    position: relative; 
+    width: 250px;
+    height: 350px;
+    box-shadow: 0 0 5px rgba(75, 75, 75, 0.07);
+    z-index: 1;
+  }
+ 
+  
+  .Lostcard-body {
+    display: inline-block;
+  }
+  
+ 
+  .card-author {
+    display: block;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    margin: 15px 0.5rem 0;
+    text-transform: uppercase;
+
+  }
+  
+  .card-title {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 60px;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    margin-left: 0.5rem;
+    text-transform: capitalize;
+  }
+  
+  .card-location{
+    margin-left: 0.5rem;
+  }
+  
+  .card-tag button{
+    float: right;
+    margin: 5px 0 0;
+    border: 1px solid #aaa;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 1rem;
+    
+  }
+  
+  .card-tag button:hover {
+    background: #aaa;
+    color: black;
+  }
+  .card-media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0%;
+    max-width: 100%;
+    height:180px;
+    direction: none;
+  }
+  
+ 
+ 
+  @media (max-width: 1000px) {
+    .main-card--cointainer {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(300px, 500px));
+      grid-gap: 50px;
+      justify-content: space-around;
+      /* background-color: rgb(230, 227, 227); */
+      background-image: linear-gradient(to right, #4b4b4b, #cfd4d4, #4b4b4b);
+    }
+    .lostcard-container{
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+      justify-content: space-around;
+      grid-template-columns: 1fr;
+      align-items: flex-start;
+      margin-top: 1rem; 
+      margin-bottom: 1rem;
+    }
+  }
+  
+ 
+  /* display for mobile */
+
+@media (max-width: 660px) {
+  .main-card--cointainer {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(300px, 500px));
+    grid-gap: 50px;
+    justify-content: space-around;
+    /* background-color: rgb(230, 227, 227); */
+    background-image: linear-gradient(to right, #4b4b4b, #cfd4d4, #4b4b4b);
+  }
+  .lostcard-container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: space-around;
+    grid-template-columns: 1fr;
+    align-items: flex-start;
+    margin-top: 1rem; 
+    margin-bottom: 1rem;
+  }
+}

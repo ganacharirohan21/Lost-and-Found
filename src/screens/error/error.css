@@ -1,0 +1,11 @@
+.errorHeading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.homeButton button{
+ height: 50px;
+ width: 150px;
+ margin-left:34.5rem;
+
+}

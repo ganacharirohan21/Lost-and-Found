@@ -1,0 +1,110 @@
+
+.homeHeadigBg img{
+    width: 100%;
+    height: 500px;
+    margin-top:0.2rem;
+    
+   
+}
+.HomeContent {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-style:oblique;
+}
+.HomeContent h2{
+    margin-top: 0%;
+}
+
+
+/* mid content */
+
+
+.midHome h1{
+display: flex;
+flex-direction: column;
+align-items: center;
+color: #fff;
+padding-top: 20px;
+}
+.midbg{
+    background-color: rgb(161, 132, 132);
+    width: 100%;
+    height: 15rem;
+    margin: 0%;
+}
+.midbg h2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    padding-top: 4px;
+    }
+    .midbg button{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 45%;
+        height: 25px;
+        width: 100px;
+    }
+
+
+
+
+    .midHome2 h1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #fff;
+        padding-top: 20px;
+        }
+        .midbg2{
+            background-color: rgb(83, 81, 81);
+            width: 100%;
+            height: 15rem;
+            margin: 0%;
+        }
+        .midbg2 h2{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: rgb(0, 0, 0);
+            padding-top: 4px;
+            }
+            .midbg2 button{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-left: 45%;
+                height: 25px;
+                width: 100px;
+            }
+
+
+.footer {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 0%;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 150px;
+  background-image:linear-gradient(rgb(92, 90, 90), rgb(255, 255, 255));
+
+  color: rgb(8, 8, 8);
+    
+}
+.footercontent ul li{
+
+    list-style: none;
+flex-direction: row;
+}           
+
+.footercontent ul{
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,53 @@
+.CbgColor img {
+    width:100%;
+    height:100%;
+}
+
+.cheading{
+    margin-top: -30rem;
+    margin-left: 39.5rem;
+}
+
+.cbox1{
+    margin-top: 1.5rem;
+    margin-left: 39.5rem;
+}
+
+.cbox1 input {
+    width: 90%;    
+}
+
+.cbutton {
+    margin-top:-26.4rem;
+    margin-left:2.5rem;
+}
+
+.cbutton button {
+    height: 30px;
+    width: 60px;
+    background-color: rgba(143, 143, 143, 0);
+    border-radius: 20%;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+.cbutton button:hover {
+    background-color: rgb(145, 145, 145);
+    color: black;
+}
+
+.cbox2{
+    margin-top: 1.5rem;
+    margin-left: 39.5rem;
+}
+
+.cbox2 input{
+    width: 91%;
+    cursor: pointer;
+}
+
+.cbox2 input:hover{
+    width: 91%;
+    color: rgb(247, 247, 247);
+    background-color: rgb(51, 51, 243);
+}

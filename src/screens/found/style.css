@@ -1,0 +1,166 @@
+.bgColor img{
+    height: 35.3rem;
+    width: 100%;
+}
+
+.Card2{
+    position: absolute;
+    width: 437.5px;
+    height: 500px;
+    /* left: 220px; */
+    left: 172px;
+    top:35px;
+    background: linear-gradient(36.01deg, #2e2e2e 2.6%, #000000 100%);
+    opacity: 80%;
+    
+}
+.card-contents2 h2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:  #FFFFFF;
+    opacity:100%;
+    margin-top: 10%;
+     
+ } 
+ .card-contents2 p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:  #FFFFFF;
+    opacity:100%;
+    margin: 10%;
+ }
+.Buttons {
+    display: flex;
+    flex-direction: row;
+    margin-left: 45px;
+    
+}
+.Buttons button{
+    height: 35px;
+    width: 150px;
+    margin: 10px;
+
+}
+.Buttons button:hover{
+  cursor: pointer;
+  background-color:#afaaaa;
+}
+
+
+ .Card{
+position: absolute;
+width: 875px;
+height: 500px;
+/* left: 220px; */
+left: 172px;
+top: 35px;
+background:linear-gradient(36.01deg, #2e2e2e 2.6%, #000000 100%);
+opacity: 90%;
+box-shadow: -3px 7px 33px 13px rgba(0, 0, 0, 0.25);
+}
+    
+/* From details box */
+.data-box{
+    margin-left: 27.5rem;
+     position: relative;
+}
+.data-box h1{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.data-box h2{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 0%;
+}
+.data-box input{
+  width: 210px;
+   background-color: #FFFFFF;
+   margin-top: 20px;
+   margin-right: 20px;
+  }
+  .data-box label{
+    color: #FFFFFF;
+    margin-left: 5px;
+  }
+  /* .data-box button{
+    margin-left: 11rem;
+    margin-top: 2rem;
+    color: #FFFFFF;
+    font-size: 15px;
+    border-radius: 10%;
+    font-weight:bolder;
+    height:30px;
+    width: 90px;
+    background-color: rgb(85, 85, 85);
+    opacity: 100% !important;
+   
+  }
+  .data-box button:hover{
+    background-color:  rgb(27, 27, 27);
+    cursor: pointer;
+  }
+  */
+  .fromOr h3{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 1%;
+    margin-bottom: 0%;
+  }
+ 
+  .fBox5{
+  margin-left: 4.7rem;
+  }
+  .fBox6{
+    margin-left: 3.5rem;
+   
+    }
+
+    .submitbutton {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .submitbutton input{
+    width: 100px;
+    border-radius: 10px;
+    background-color: #cec9c9;
+   }
+   .submitbutton input:hover{
+    background-color: #666262;
+    cursor: pointer;
+   
+   }
+  
+    /* form box arrangements */
+
+  .fBox1 input{
+    margin-left: 10px;
+  }
+  .fBox2 input{
+    margin-left: 34px;
+  }
+  .fBox3 input{
+    margin-left: 28px;
+  }
+  .fBox4 input{
+    margin-left: 28px;
+    width: 216px;
+  }
+  .fBox5 input{
+    margin-left: 10px;
+  }
+  .fBox6 input{
+    margin-left: 10px;
+    margin-top: 1%;
+  }
